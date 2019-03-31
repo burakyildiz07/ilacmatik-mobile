@@ -1,0 +1,7 @@
+{
+  "name": "ionic-passport-app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

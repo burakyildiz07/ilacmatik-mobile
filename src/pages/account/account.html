@@ -1,0 +1,19 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Account</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+	<p>Hello {{ user.name }}</p>
+
+	<hr>
+	<p>Your details:</p>
+	<p><strong>Email:</strong> {{ user.email }}</p>
+	<p><strong>Registered date:</strong> {{ user.created_at }}</p>
+
+</ion-content>
